@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#0B1F44"/><svg x="6" y="6" width="52" height="52" viewBox="206 300 890 336">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="216 33 870 870" width="64" height="64">
   <defs>
     <linearGradient id="g1" x1="236" y1="330" x2="560" y2="606" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#2aa6ff"/><stop offset=".5" stop-color="#1468e6"/><stop offset="1" stop-color="#081f7a"/>
@@ -55,4 +55,4 @@
     <!-- brilho na dobra superior -->
     <path d="M634 330 H736 Q752 330 744 342 L736 354 Q736 340 720 340 H636 Q618 340 610 354 L604 344 Q614 330 634 330 Z"
           fill="#9ff4ff" opacity=".35"/>
-  </g></svg></svg>
+  </g></svg>
