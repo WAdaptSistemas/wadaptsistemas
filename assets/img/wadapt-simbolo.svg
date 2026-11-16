@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="206 300 890 336" width="890" height="336">
+  <defs>
+    <linearGradient id="g1" x1="236" y1="330" x2="560" y2="606" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2aa6ff"/><stop offset=".5" stop-color="#1468e6"/><stop offset="1" stop-color="#081f7a"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="430" y1="560" x2="700" y2="420" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1a72ff"/><stop offset=".5" stop-color="#17acff"/><stop offset="1" stop-color="#3ee4ff"/>
+    </linearGradient>
+    <linearGradient id="g3" x1="700" y1="360" x2="900" y2="600" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#051552"/><stop offset=".35" stop-color="#0b36b0"/><stop offset=".7" stop-color="#1388ff"/><stop offset="1" stop-color="#20dcff"/>
+    </linearGradient>
+    <linearGradient id="g3top" x1="700" y1="330" x2="740" y2="380" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7ff0ff"/><stop offset="1" stop-color="#1aa0ff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="g4" x1="1066" y1="330" x2="830" y2="606" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#b56cff"/><stop offset=".5" stop-color="#7a35e6"/><stop offset="1" stop-color="#1c0f6b"/>
+    </linearGradient>
+    <linearGradient id="gshadow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#000a33" stop-opacity="0"/><stop offset="1" stop-color="#000a33"/>
+    </linearGradient>
+    <linearGradient id="gW" x1="440" y1="668" x2="357" y2="817" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1fd2ff"/><stop offset="1" stop-color="#1a5cff"/>
+    </linearGradient>
+    <linearGradient id="gA" x1="500" y1="0" x2="592" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1a7dff" stop-opacity="0"/><stop offset=".45" stop-color="#1a7dff"/><stop offset="1" stop-color="#25b4ff"/>
+    </linearGradient>
+    <linearGradient id="gline" x1="459" y1="0" x2="821" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#12d0ff"/><stop offset=".5" stop-color="#4a7cf5"/><stop offset="1" stop-color="#a540ff"/>
+    </linearGradient>
+    <radialGradient id="gdisc" cx="640" cy="600" r="640" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#000a24"/><stop offset=".6" stop-color="#00103a"/><stop offset=".85" stop-color="#011a55"/><stop offset="1" stop-color="#062a90"/>
+    </radialGradient>
+    <linearGradient id="gring" x1="100" y1="300" x2="1260" y2="640" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#14d2ff"/><stop offset=".55" stop-color="#2a6cf5"/><stop offset=".85" stop-color="#7a4cff"/><stop offset="1" stop-color="#9a50ff"/>
+    </linearGradient>
+    <radialGradient id="gglow" cx="1000" cy="1050" r="520" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1a5cff" stop-opacity=".28"/><stop offset="1" stop-color="#1a5cff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="gglow2" cx="260" cy="250" r="420" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0a5ad0" stop-opacity=".3"/><stop offset="1" stop-color="#0a5ad0" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="clipdisc"><circle cx="640" cy="640" r="628"/></clipPath>
+  </defs>
+  <g id="simbolo">
+    <!-- faixa 4 (roxa, ao fundo) -->
+    <path d="M940 330 H1066 L896 570 H769 Z" fill="url(#g4)"/>
+    <!-- faixa 3 (descendo, escura → ciano) -->
+    <path d="M700 330 H736 Q756 330 766 346 L930 606 H790 L640 390 Z" fill="url(#g3)"/>
+    <!-- faixa 1 (primeira descida) -->
+    <path d="M236 330 H366 Q392 330 406 350 L566 606 H448 Q426 606 414 590 Z" fill="url(#g1)"/>
+    <!-- sombra da dobra inferior -->
+    <path d="M414 590 L470 510 L560 606 H448 Q426 606 414 590 Z" fill="url(#gshadow)" opacity=".7"/>
+    <!-- faixa 2 (subida, frente) -->
+    <path d="M446 606 H570 L744 342 Q752 330 736 330 H634 Q614 330 604 344 L426 576 Q410 606 446 606 Z" fill="url(#g2)"/>
+    <!-- brilho na dobra superior -->
+    <path d="M634 330 H736 Q752 330 744 342 L736 354 Q736 340 720 340 H636 Q618 340 610 354 L604 344 Q614 330 634 330 Z"
+          fill="#9ff4ff" opacity=".35"/>
+  </g></svg>
